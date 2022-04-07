@@ -1,0 +1,31 @@
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+
+    VERSİYONLAR
+
+
+06  nowrap tamam
+05  html formatına getirdim GUI eklendi
+04  pekh zor oldu
+03  yuh amkoyu
+02  o koyuyo ya öbürü de koyuyo !!
+01  Altılıları index olarak gönderiyorum. matchAll ile str içi indekleri çıkarıp
+alt üst satırlar boşsa çizgi ekleyerenkten falan filan
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+    EKLENECEKLER
+
+6 çizgi anlama regexp'i geliştirilecek 
+GITHUB'a yüklenecek
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+    NE İŞE YARAR ?
+    ---------------
+Tablatür başlarına EADGBE ekledikten sonra RegExp ile yanlarına
+(nota)larını yazar.
+-----------------------------------------------------------
+-----------------------------------------------------------

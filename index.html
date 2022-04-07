@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Taba Nota Ekleyici</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="icon" href="images/guitar.ico">    
+
+</head>
+<body>
+  <header>
+    <h1>Taba Nota Ekleyici</h1>
+  </header>
+  <main>
+    <div id="actions">
+      <div> Karar sesi en alt telin kaçıncı perdesinde: 
+        <button id="karar_azalt" class="pure-material-button-text">-</button>
+        <var id=karar> 5 </var>
+        <button id="karar_artır" class="pure-material-button-contained">+</button>
+        <button id="çevir" class="pure-material-button-text">Çevir</button>
+      </div>
+    </div>
+    <hr>
+    <div id="text">
+      <textarea>
+        Copy and Paste your tab text here by pressing Ctrl+V or ⌘+V.
+        After pasting, use the above -/+ buttons to select the fret from the lowest string where the natural key resides.
+
+        ( For ex if the song is in Am, it should be 5, since A is the 5.th fret )
+        ( Ex-II  if the song is in C , it should be 0, since C is the 8.th fret )
+        ( Ex-III if the song is in Em, it should be 0, since E is the 0.th fret )
+
+        Then click çevir (convert)
+        
+      </textarea>
+    </div>
+  </main>
+  <script src="src/script.js"></script>
+  <script src="src/çevirmen.js"></script>
+</body>
+</html>
