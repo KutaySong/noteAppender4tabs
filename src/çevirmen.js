@@ -1,8 +1,8 @@
 
 let text
 let karar = 5
-document.getElementById("karar_artır").onclick = () => {karar = ++document.getElementById("karar").innerHTML; if(karar > 11) karar=document.getElementById("karar").innerHTML=0}
-document.getElementById("karar_azalt").onclick = () => {karar = --document.getElementById("karar").innerHTML; if(karar < 0)  karar=document.getElementById("karar").innerHTML=11}
+document.getElementById("karar_artır").onclick = () => {karar = ++karartext.value; if(karar > 11) karar=karartext.value=0}
+document.getElementById("karar_azalt").onclick = () => {karar = --karartext.value; if(karar < 0)  karar=karartext.value=11}
 
 const matrix = [
 	"EF|G#AâBCçD^EF|G#AâBCçD^",

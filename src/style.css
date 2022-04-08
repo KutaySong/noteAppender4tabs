@@ -29,13 +29,19 @@ main {
 button {
   margin: 0 12px;
 }
+.textBoxStyle {
+  width: 20px;
+  border: none;
+  text-align: center;
+  font-size: 100%;
+}
 
 #actions {
   font-size: 2rem;
   flex: 3 0 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   box-sizing: border-box;
   padding: 1.2rem;
 }
